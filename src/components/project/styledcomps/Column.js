@@ -5,6 +5,9 @@ const Column = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 300px;
+    height: auto;
+    border: solid 1px blue;
 `;
 
 export default Column;

@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
+
 import Column from './styledcomps/Column';
+import Title from './styledcomps/Title';
+import ExpandBtn from './styledcomps/ExpandBtn';
 
 class Project extends Component {
 
@@ -24,8 +27,8 @@ class Project extends Component {
 
         return (
             <Column>
-                <h1>Project</h1>
-                <button onClick={this.expand}>{ isExpanded ? "-" : "+" }</button>
+                <Title>Project</Title>
+                <ExpandBtn onClick={this.expand}>{ isExpanded ? "-" : "+" }</ExpandBtn>
                 <ul>
                     { isExpanded ? [1,2,3].map( x => <li>{x}</li>) : [].map( x => <li>{x}</li>)}
                 </ul>
