@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 const SubTitle = styled.h2`
     font-family: Arial;
-    font-size: 16px;
+    font-size: 17px;
     color: white;
 `;
 

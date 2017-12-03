@@ -6,6 +6,8 @@ import Title from './styledcomps/Title';
 import SubTitle from './styledcomps/SubTitle';
 import Point from './styledcomps/Point';
 import ExpandBtn from './styledcomps/ExpandBtn';
+import LinkBtn from './styledcomps/LinkBtn';
+import Row from './styledcomps/Row';
 
 class Project extends Component {
     constructor(props){
@@ -25,12 +27,16 @@ class Project extends Component {
 
     render(){
         const { isExpanded } = this.state;
-        const { title, subtitle, list} = this.props;
+        const { title, subtitle, list, demo, github} = this.props;
         return (
             <Column>
                 <Title>{title}</Title>
                 <SubTitle>{subtitle}</SubTitle>
                 { isExpanded ? <div>{list.map( (x, i) => <Point key={i}>{x}</Point>)}</div>: "" }
+                <Row>
+                    <LinkBtn href={demo}>Demo</LinkBtn>
+                    <LinkBtn href={github}>Github</LinkBtn>
+                </Row>
                 <ExpandBtn onClick={this.expand}>{ isExpanded ? "-" : "+" }</ExpandBtn>
             </Column>
         );

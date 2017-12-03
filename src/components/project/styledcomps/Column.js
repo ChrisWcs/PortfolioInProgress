@@ -14,6 +14,7 @@ const Column = styled.div`
     background: #00838F;
     margin-left: 1px;
     margin-right: 1px;
+    margin-bottom: 10px;
 `;
 
 export default Column;

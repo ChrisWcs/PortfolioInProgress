@@ -5,7 +5,12 @@ import projects from '../json/projects';
 
 const App = () => (
     <Container>
-        { projects.list.map( (x, i) => <Project key={i} title={x.title} subtitle={x.subtitle} list={x.list}/>)}
+        { projects.list.map( (x, i) => <Project key={i} 
+                                                title={x.title} 
+                                                subtitle={x.subtitle} 
+                                                list={x.list}
+                                                demo={x.demo}
+                                                github={x.github}/>)}
     </Container>
 );
 
