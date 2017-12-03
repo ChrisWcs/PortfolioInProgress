@@ -12,7 +12,6 @@ class Project extends Component {
         this.state = {
             isExpanded: false
         };
-
         this.expand = this.expand.bind(this);
     }
 
@@ -24,14 +23,11 @@ class Project extends Component {
 
     render(){
         const { isExpanded } = this.state;
-
         return (
             <Column>
                 <Title>Project</Title>
+                { isExpanded ? <div>{[1,2,3].map( (x, i) => <h3 key={i}>{x}</h3>)}</div>: "" }
                 <ExpandBtn onClick={this.expand}>{ isExpanded ? "-" : "+" }</ExpandBtn>
-                <ul>
-                    { isExpanded ? [1,2,3].map( x => <li>{x}</li>) : [].map( x => <li>{x}</li>)}
-                </ul>
             </Column>
         );
     }
