@@ -1,7 +1,8 @@
 import React from 'react';
+import Project from './project/Project';
 
 const App = () => (
-    <h1>Christian</h1>
+    <Project />
 );
 
 export default App;
