@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import Column from './styledcomps/Column';
 import Title from './styledcomps/Title';
 import SubTitle from './styledcomps/SubTitle';
+import Point from './styledcomps/Point';
 import ExpandBtn from './styledcomps/ExpandBtn';
 
 class Project extends Component {
@@ -29,7 +30,7 @@ class Project extends Component {
             <Column>
                 <Title>{title}</Title>
                 <SubTitle>{subtitle}</SubTitle>
-                { isExpanded ? <div>{list.map( (x, i) => <h3 key={i}>{x}</h3>)}</div>: "" }
+                { isExpanded ? <div>{list.map( (x, i) => <Point key={i}>{x}</Point>)}</div>: "" }
                 <ExpandBtn onClick={this.expand}>{ isExpanded ? "-" : "+" }</ExpandBtn>
             </Column>
         );

@@ -1,20 +1,11 @@
 import React from 'react';
 import Container from './sharedstyled/Container';
 import Project from './project/Project';
-
-const test = {
-    title: "LinePlotter",
-    list: ["Made using React, Redux, React charts, Glamorous, Glamor and React-slingshot",
-           "Contains a main Reducer which makes use of the smaller reducers",
-           "Organized by features"],
-    subtitle: "App to plot lines of the form mx + b"
-};
+import projects from '../json/projects';
 
 const App = () => (
     <Container>
-        <Project title={test.title} subtitle={test.subtitle} list={test.list}/>
-        <Project title={test.title} subtitle={test.subtitle} list={test.list}/>
-        <Project title={test.title} subtitle={test.subtitle} list={test.list}/>
+        { projects.list.map( (x, i) => <Project key={i} title={x.title} subtitle={x.subtitle} list={x.list}/>)}
     </Container>
 );
 

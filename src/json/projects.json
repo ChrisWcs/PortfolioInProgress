@@ -1,0 +1,22 @@
+{
+    "list": [
+        {
+            "title": "LinePlotter",
+            "demo": "http://lineplotter.surge.sh",
+            "github": "https://github.com/ChrisWcs/LinePlotter",
+            "subtitle": "App to plot lines of the form mx + b",
+            "list": ["Made using React, Redux, React charts, Glamorous, Glamor and React-slingshot",
+                   "Contains a main Reducer which makes use of the smaller reducers",
+                   "Organized by features"]
+        },
+        {
+            "title": "Tic Tac Toe",
+            "demo": "http://tictactoewithvue.surge.sh",
+            "github": "https://github.com/ChrisWcs/MtnJS_bv_tictactoe",
+            "subtitle": "Tic Tac Toe for two people",
+            "list": ["Made with Vue and vanilla JavaScript basics",
+                "Built to show how to use the basics of Vue.js",
+                "Wrote an accompanying article on my medium publication describing how to use Vue.js"]
+        }
+    ]
+}

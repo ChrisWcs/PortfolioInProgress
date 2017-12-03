@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 
-const Title = styled.h1`
+const Point = styled.h2`
     font-family: Arial;
-    font-size: 30px;
+    font-size: 14px;
     color: white;
 `;
 
-export default Title;
+export default Point;
