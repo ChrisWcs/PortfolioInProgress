@@ -2,7 +2,8 @@ import styled from 'styled-components';
 
 const Title = styled.h1`
     font-family: Arial;
-    font-size: 40px;
+    font-size: 60px;
+    letter-spacing: 2px;
     color: white;
 `;
 

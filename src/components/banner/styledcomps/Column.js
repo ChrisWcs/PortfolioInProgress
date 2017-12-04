@@ -6,7 +6,8 @@ const Column = styled.div`
     justify-content: center;
     align-items: center;
     width: 100%;
-    background: #2E7D32;
+    height: 300px;
+    background: #00838F;
     color: white;
 `;
 
