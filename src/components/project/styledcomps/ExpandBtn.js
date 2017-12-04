@@ -11,6 +11,12 @@ const ExpandBtn = styled.button`
     height: 35px;
     transform: translateY(18px);
     cursor: pointer;
+
+    :hover {
+        border: solid 2px white;
+        background: #00838F;
+        color: white;
+    }
 `;
 
 export default ExpandBtn;

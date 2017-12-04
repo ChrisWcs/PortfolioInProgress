@@ -4,7 +4,7 @@
             "title": "LinePlotter",
             "demo": "http://lineplotter.surge.sh",
             "github": "https://github.com/ChrisWcs/LinePlotter",
-            "subtitle": "App to plot lines of the form mx + b",
+            "subtitle": "App to plot lines of the form  y = mx + b",
             "list": ["Made using React, Redux, React charts, Glamorous, Glamor and React-slingshot",
                    "Contains a main Reducer which makes use of the smaller reducers",
                    "Organized by features"]
