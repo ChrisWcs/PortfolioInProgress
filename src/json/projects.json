@@ -17,6 +17,24 @@
             "list": ["Made with Vue and vanilla JavaScript basics",
                 "Built to show how to use the basics of Vue.js",
                 "Wrote an accompanying article on my medium publication describing how to use Vue.js"]
+        },
+        {
+            "title": "ReactConways",
+            "demo": "http://conwaysreactlife.surge.sh/",
+            "github": "https://github.com/ChrisWcs/ReactConways",
+            "subtitle": "Simulations of Conway's game of life",
+            "list": ["Made with React and ReactSlingshot",
+                " It will generate a random board. It allows the user to start the simulation, pause the simulation, and reset it",
+                "React was perfect for this project since it does such a great job handling the updating when state changes"]
+        },
+        {
+            "title": "Tic Tac Toe",
+            "demo": "http://reactclock.surge.sh/",
+            "github": "https://github.com/ChrisWcs/MtnJS_br_clock",
+            "subtitle": "Simple Clock",
+            "list": ["Made with React",
+                "Built to show how to use the basics of React",
+                "React is excellent for the project, since it can react to state changes"]
         }
     ]
 }

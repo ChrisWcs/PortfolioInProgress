@@ -1,0 +1,22 @@
+{
+    "list": [
+        {
+            "langauge" : "JavaScript",
+            "libraries" : [
+                "React",
+                "Redux",
+                "styled-components",
+                "glamorous",
+                "Vue"
+            ]
+        },
+        {
+            "langauge" : "Ruby",
+            "libraries" : [
+                "Rails",
+                "Rubcop",
+                ""
+            ]
+        }
+    ]
+}

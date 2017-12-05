@@ -1,10 +1,10 @@
 import React from 'react';
-
+import normalize from './sharedstyled/normalize';
 import Projects from './project/Projects';
 import Banner from './banner/Banner';
 
 import projects from '../json/projects';
-import normalize from './sharedstyled/normalize';
+
 
 const App = () => {
     normalize();
