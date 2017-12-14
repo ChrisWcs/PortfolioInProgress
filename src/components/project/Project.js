@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ReactShow from 'react-show';
 import PropTypes from 'prop-types';
 
 import Column from './styledcomps/Column';
@@ -32,7 +33,9 @@ class Project extends Component {
             <Column>
                 <Title>{title}</Title>
                 <SubTitle>{subtitle}</SubTitle>
-                { isExpanded ? <div>{list.map( (x, i) => <Point key={i}>{x}</Point>)}</div>: "" }
+                <ReactShow show={isExpanded}>
+                    {list.map( (x, i) => <Point key={i}>{x}</Point>)}
+                </ReactShow>
                 <Row>
                     <LinkBtn href={demo}>Demo</LinkBtn>
                     <LinkBtn href={github}>Github</LinkBtn>
@@ -47,6 +50,8 @@ Project.propTypes = {
     title: PropTypes.string,
     subtitle: PropTypes.string,
     list: PropTypes.array,
+    demo: PropTypes.string,
+    github: PropTypes.string,
 };
 
 export default Project;
