@@ -7,7 +7,7 @@ const Container = styled.div`
     flex-wrap: wrap;
     align-items: flex-start;
 
-    @media (max-device-width: 480px) {
+    @media (max-width: 480px) {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
