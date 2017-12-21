@@ -5,17 +5,16 @@
             "libraries" : [
                 "React",
                 "Redux",
+                "Redux-Thunk",
                 "styled-components",
-                "glamorous",
-                "Vue"
+                "glamorous"
             ]
         },
         {
             "langauge" : "Ruby",
             "libraries" : [
                 "Rails",
-                "Rubcop",
-                ""
+                "Rubcop"
             ]
         }
     ]
