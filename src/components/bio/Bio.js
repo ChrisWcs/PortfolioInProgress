@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import Column from './styledcomps/Column';
 import Row from './styledcomps/Row';
@@ -11,5 +12,9 @@ const Bio = ({bio}) => (
         </Column>
     </Row>
 );
+
+Bio.propTypes = {
+    bio: PropTypes.string
+};
 
 export default Bio;
